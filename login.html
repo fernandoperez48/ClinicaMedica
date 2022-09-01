@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ba9a4f2060.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./login/css/global.css">
+    <title>Clinica Medica - Login Pacientes</title>
+</head>
+
+<!-- Color palette: https://coolors.co/palette/ccd5ae-dbe1bc-e9edc9-f4f4d5-fefae0-fcf4d7-faedcd-e7c8a0-deb68a-d4a373 -->
+
+<body>
+    <main>
+        <section>
+            <div><i class="fa-solid fa-house-medical-circle-check"></i></div>
+            <form>
+                <div class="labelUsuario"><i class="fa-solid fa-user"></i><label>E-mail</label></div>
+                <input type="email" name="email" id="user" required autofocus maxlength="50">
+                <div class="labelContraseña"><i class="fa-solid fa-key"></i><label>Contraseña</label></div>
+                <input type="password" name="pass" id="password" maxlength="8" required>
+                <button id="btn" type="submit">Ingresar</button>
+            </form>
+            <div id="message" class="footer"></div>
+        </section>
+    </main>
+    
+</body>
+<script src="./login/scripts/validation.js"></script>
+</html>
