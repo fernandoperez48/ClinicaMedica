@@ -42,7 +42,7 @@ function handleClick(event) {
 
     if (validacionOk) {
 
-      location.href = "main.html";
+      location.href = "modal.html";
 
     } else {
       message.innerHTML = `<i class="fa-solid fa-circle-exclamation"></i>Usuario o contraseña incorrectos`;
@@ -54,7 +54,7 @@ function handleClick(event) {
 function validationSessionStorage() {
   const login = JSON.parse(sessionStorage.getItem("login"));
   if (login === true) {
-    location.href = "main.html";
+    location.href = "modal.html";
   }
 }
 

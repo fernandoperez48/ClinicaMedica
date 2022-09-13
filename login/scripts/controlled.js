@@ -12,6 +12,11 @@ function validationSessionStorage(){
 
 validationSessionStorage();
 
+function cerrarSesion(){
+    sessionStorage.clear();
+}
+
+
 
 
         

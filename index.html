@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./login/css/global.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/ba9a4f2060.js" crossorigin="anonymous"></script>
+	<title>Clinica Medica - Home</title>
+</head>
+<!-- Color palette: https://coolors.co/palette/ccd5ae-dbe1bc-e9edc9-f4f4d5-fefae0-fcf4d7-faedcd-e7c8a0-deb68a-d4a373 -->
+
+<body>
+  
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="logo">
+        <img src="./src/img/Clinica_medica_privada_(1).png" alt="">
+      </div>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Especilidades
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">Laboratorio</a></li>
+                  <li><a class="dropdown-item" href="">Ginecologia</a></li>
+                  <li><a class="dropdown-item" href="">Cirugia Estetica</a></li>
+                  <li><a class="dropdown-item" href="">Medicina General</a></li>
+                  <li><a class="dropdown-item" href="">Cardiologia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Turnos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mi cuenta
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.html">Paciente</a></li>
+                  <li><a class="dropdown-item" href="login.html">Medicos</a></li>
+                  <li><a class="dropdown-item" href="#">Cerrar</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button"data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./src/img/m_iStock-1064670328.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Calidad en Atencion</h5>
+              <p>Cuidamos su salud y la de su familia</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/m_istockphoto-1271329480-612x612.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Amplia sala de espera </h5>
+              <p>Confort durante la espera de atencion</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/m_llenando-registro-medico_1098-18239.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nuestros profesionales altamente capacitados</h5>
+              <p>Historia clinica y seguimiento medico</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="tituloServicios">
+        <h1>AMPLIA GAMA DE SERVICIOS MEDICOS</h1>
+        <h3>CONFORT, CONTENCION Y CALIDEZ</h3>
+        <div class="container">
+          <div class="especilidad">
+            <i class="fa-sharp fa-solid fa-flask-vial"></i>
+            <p>Laboratorio</p>
+          </div>
+          <div class="especilidad">
+            <i class="fa-solid fa-venus"></i>
+            <p>Ginecologia</p>
+          </div>
+          <div class="especilidad">
+            <i class="fa-solid fa-syringe"></i>
+            <p>Cirugia Estetica</p>
+          </div>
+          <div class="especilidad">
+            <i class="fa-solid fa-house-chimney-medical"></i>
+            <p>Medicina General</p>
+          </div>
+          <div class="especilidad">
+            <i class="fa-solid fa-heart"></i>
+            <p>Cardiologia</p>
+          </div>
+        </div>
+      </div>
+      <div class="abajo">
+        <div class="comentario">
+          <p><strong>Clinica Moscati </strong>ofrece una amplia gama de servicios médicos
+            conjugados con la calidez de una atención personalizada y la comodidad de sus instalaciones
+            para brindarle al paciente la mejor de las estadías.</p>
+        </div>
+      </div>
+      
+     
+        <div class="media">
+          <div><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+          <div><a href=""><i class="fa-brands fa-square-instagram"></i></a></div>
+          <div><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+          
+       </div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="./login/scripts/controlled.js"></script>
+</body>
+
+</html>
